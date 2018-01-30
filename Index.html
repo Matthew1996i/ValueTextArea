@@ -1,0 +1,30 @@
+<!DOCTYPE html lang="pt-br">
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="">
+	<title>Calculadora de IMC</title>
+</head>
+<body>
+	<input type="text" placeholder="Digitel algo" id="copy"></input>
+	<input type="button" value="Copiar" onclick="muda()"></input>
+	
+
+<script>
+
+	function muda(){
+		var box = document.getElementById('copy');
+		console.log(box);
+		var copy = document.getElementById('copy').value;
+		document.getElementById('print').innerHTML = copy
+		
+
+
+	}
+
+</script>
+
+<h1 id="print"></h1>
+
+</body>
+</html>
